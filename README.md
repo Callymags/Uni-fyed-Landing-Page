@@ -1,45 +1,69 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Uni-fyed Landing Page
+Uni-fyed is an online language exchange platform that enables language learners in universities to find
+language partners on their own campus so that they can practice speaking the languages they are learning. 
+The platform enables users to find a partner very easily while also allowing them to find someone with 
+the same interests and hobbies as them which makes for a more effective language exchange. 
 
-Welcome USER_NAME,
+This project focuses on developing a landing page for potential customers to get more information 
+about the platform. The project consists of five sections: header, home, about, contact, and the footer.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+I have been working on developing the idea for the Uni-fyed platform for the past year and have been a part of two 
+different entrepreneur programs to help me develop the idea further. These programs were called Student 
+Inc. and IGNITE. I am hoping to release it for testing with the help of the UCC School of Languages in 
+September 2021.
 
-## Gitpod Reminders
+## UX: 
+### Project Goals
+The primary goal of this project is to create a landing page for Uni-fyed which will provide customers 
+with information about the Uni-fyed platform and encourage them to sign up/log in, or contact Uni-fyed 
+for more information. Uni-fyed has two target audiences: University language students and university 
+language lecturers.  
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Language Student Goals
+The central target audience for this landing page is University language students- local and exchange students. 
 
-`python3 -m http.server`
+Player goals are:
+* Intuitive landing page that can be navigated easily.
+* Responsive site for mobiles and laptops.  
+* Navigation sections to be clearly distinguishable.
+* Information that is easy to understand.
+* Visually appealing, consistent and professional design that increases trust in platform.
 
-A blue button should appear to click: *Make Public*,
+### Language Lecturer Goals 
+The main influencers that will promote and make the language students aware of the platform 
+are the language lecturers. 
 
-Another blue button should appear to click: *Open Browser*.
+Language lecturer goals are: 
+* Landing page is intuitive and easy to navigate. 
+* Design looks professional and increases trust in brand. 
+* Design evokes a positive user experience. 
+* Landing page displays offering clearly. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Make Public*,
+### Developer and Business Goals 
+* Minimal and professional design that evokes a positive user experience from target 
+audience increasing their trust in brand.
+* A landing page that encourages language students to sign up and encourages language 
+lecturers to promote platform
+* A professional looking project that the developer is proud to put in their portfolio. 
 
-Another blue button should appear to click: *Open Browser*.
+### User Stories 
+As a university language student, I want: 
+1. The ability to navigate through the landing page, so that I can find relevant information easily.
+2. A visually appealing landing page on all forms of devices.
+3. The ability to understand the information provided. 
+4. Knowledge of the price to use the platform before signing up.
+5. Options to find out more information before signing up.
+6. The ability to contact Uni-fyed for more information. 
+7. The ability to view Terms and Conditions and Privacy Policy. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+As a language lecturer, I want: 
+1. The ability to navigate through the landing page, so that I can find relevant information easily.
+2. A visually appealing landing page that looks professional and trustworthy.
+3. Simple, concise messaging that outlines offering clearly.
+4. Reassurance that the platform is safe for their students to use. 
+5. Options to find out more information before promoting platform to students.
+6. The ability to contact Uni-fyed for more information.
+7. The ability to view Terms and Conditions and Privacy Policy. 
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
