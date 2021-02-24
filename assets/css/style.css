@@ -6,13 +6,21 @@
 }
 
 .title,
-.subtitle,
-.navbar-light {
+.subtitle {
     color: #f9fcfb
 }
 
+.nav-link {
+    color: #fcfefe;
+}
 
-/* ------------------------------------ Heading*/
+a:hover {
+    color: #f4f3f3;
+    text-decoration: none;
+}
+
+
+/* ------------------------------------ Navbar*/
 
 .navbar-logo{
     width: 5rem;
@@ -27,6 +35,11 @@
 
 .navbar {
     position: relative;
+    height: 7.25rem;
+}
+
+.navbar-expand-sm {
+    text-align: center;
 }
 
 .navbar-nav {
