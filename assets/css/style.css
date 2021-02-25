@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@100;200;300;400;500;600;700;800;900');
 
 /* ----------------------------------- Colours*/
-.bg-dark-green {
+
+#main-nav-color {
     background-color: #1ba186;
 }
 
@@ -24,8 +25,12 @@ button {
 }
 
 
+
 /* ------------------------------------ Navbar*/
 
+.navbar-brand {
+    height: 6rem;
+}
 .navbar-logo{
     width: 5rem;
     height: auto;
@@ -44,11 +49,6 @@ button {
 
 .navbar-expand-sm {
     text-align: center;
-}
-
-.navbar-nav {
-    position: absolute; 
-    right: 0;
 }
 
 .company-name {
