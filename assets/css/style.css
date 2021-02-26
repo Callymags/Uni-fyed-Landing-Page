@@ -2,7 +2,7 @@
 
 /* ----------------------------------- Colours*/
 
-#main-nav-color {
+.bg-dark-green {
     background-color: #1ba186;
 }
 
@@ -24,9 +24,6 @@ button {
     color: #f9fcfb;
 }
 
-ul {
-    background-color: #1ba186;
-}
 
 
 /* ------------------------------------ Navbar*/
@@ -45,18 +42,10 @@ ul {
     margin-bottom: 0px;
 }
 
-.navbar {
-    position: relative;
-    height: 7.25rem;
-}
-
-.navbar-expand-sm {
-    text-align: center;
-}
-
 .company-name {
     display: inline-block;
     margin-left: 1rem;
+    text-align: center;
 }
 
 .title {
