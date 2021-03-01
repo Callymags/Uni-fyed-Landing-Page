@@ -2,20 +2,24 @@
 
 /* ----------------------------------- Colours*/
 
+a {
+    color: #f9fcfb;
+}
+
 .bg-dark-green {
     background-color: #1ba186;
 }
 
 .title,
 .subtitle {
-    color: #f9fcfb
+    color: #f9fcfb;
 }
 
 .nav-link {
     color: #fcfefe;
 }
 
-a:hover {
+.nav-link:hover {
     color: #f4f3f3;
     text-decoration: none;
 }
@@ -63,4 +67,21 @@ button {
 
 button {
     font-size: 2rem;
+}
+
+/* ------------------------------------ Footer*/
+
+footer {
+    background-color: #1ba186;
+    color: #f9fcfb;
+    position: fixed;
+    bottom: 0;
+}
+
+.company-legal {
+    text-align: center;
+}
+
+.social-links {
+    text-align: center;
 }
