@@ -30,9 +30,12 @@ a {
 
 /* ------------------------------------ Page Headers*/
 
-.page-header {
+.page-header,
+.page-subheader {
     text-align: center;
 }
+
+
 
 
 
@@ -129,4 +132,8 @@ footer {
   width: 80%;
   height: 80%;
   margin: auto;
+}
+
+.fontawesome-icon {
+    font-size: 3rem;
 }
