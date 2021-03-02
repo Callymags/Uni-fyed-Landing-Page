@@ -24,8 +24,14 @@ a {
     text-decoration: none;
 }
 
-button {
+.white-toggler {
     color: #f9fcfb;
+}
+
+/* ------------------------------------ Page Headers*/
+
+.page-header {
+    text-align: center;
 }
 
 
@@ -73,7 +79,7 @@ button {
 footer {
     background-color: #1ba186;
     color: #f9fcfb;
-    position: fixed;
+    position: relative;
     bottom: 0;
 }
 
@@ -88,19 +94,23 @@ footer {
 /* ------------------------------------ Callout*/
 
 .callout-container {
-    margin-top: 8rem;
     text-align: center;
     height: 100vh;
 
-    background: url("../images/.jpg") no-repeat center center fixed; 
+    /* background: url("../images/.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    position: relative;
+
 
 }
+
+/* ------------------------------------ About*/
+
