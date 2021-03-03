@@ -142,3 +142,17 @@ footer {
 .center-feat-col {
     text-align: center;
 }
+
+/* ------------------------------------ Features*/
+
+.center-form-content {
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+}
+
+/* .text-area-control {
+    height: 10rem;
+} */
