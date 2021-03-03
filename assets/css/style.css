@@ -137,3 +137,8 @@ footer {
 .fontawesome-icon {
     font-size: 3rem;
 }
+
+/* ------------------------------------ Features*/
+.center-feat-col {
+    text-align: center;
+}
