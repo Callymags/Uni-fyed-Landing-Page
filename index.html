@@ -175,24 +175,28 @@
                     <p>Want to get in touch? You can contact us by filling out the form below</p>
                 </div>
             </div>
-            <form id="contact-form">
+            <form>
                 <div class="row center-form-content">
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="inputName" class="col-form-label-lg"></label>
-                            <input type="text" id="inputName" class="form-control form-control-lg" placeholder="Your Name" required>
+                            <label for="name" class="col-form-label-lg"></label>
+                            <input type="text" name="name" id="name" class="form-control form-control-lg" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <label for="inputEmail" class="col-form-label-lg"></label>
-                            <input type="email" class=" form-control form-control-lg" id="inputEmail" placeholder="Your Email" required>
+                            <label for="email" class="col-form-label-lg"></label>
+                            <input type="email" name="email" class="form-control form-control-lg" id="email" placeholder="Your Email" required>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="form-group">
-                            <label for="Textarea col-form-label-lg"></label>
-                            <textarea id="Textarea" class="form-control text-area-control form-control-lg" placeholder="Your Message" required></textarea>
+                            <label for="textarea col-form-label-lg"></label>
+                            <textarea name="message" id="textarea" class="form-control text-area-control form-control-lg" placeholder="Your Message" required></textarea>
                         </div>
                     </div>
+                    <div class="container contact-button-container">
+                        <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                    </div>
+
 
                 </div>
             </form>

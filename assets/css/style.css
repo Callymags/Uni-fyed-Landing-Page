@@ -153,6 +153,10 @@ footer {
     width: 100%;
 }
 
-/* .text-area-control {
+#textarea {
     height: 10rem;
-} */
+}
+
+.contact-button-container {
+    margin-bottom: 2rem;
+}
