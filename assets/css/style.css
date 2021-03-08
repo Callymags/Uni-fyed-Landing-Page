@@ -47,11 +47,12 @@ a {
     width: 5rem;
     height: auto;
     border-radius: 50%;
-    margin-bottom: 2rem;
+    vertical-align: top;
 }
 
 .title {
     margin-bottom: 0px;
+    vertical-align: top;
 }
 
 .company-name {
@@ -62,7 +63,7 @@ a {
 
 .title {
     font-family: "Lato", sans-serif;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .subtitle {
@@ -75,6 +76,24 @@ a {
 
 button {
     font-size: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-logo {
+        width: 4rem;
+    }
+
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .navbar-toggler {
+        padding: 0rem;
+    }
 }
 
 /* ------------------------------------ Footer*/
