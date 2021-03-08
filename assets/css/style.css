@@ -10,8 +10,8 @@ a {
     background-color: #1ba186;
 }
 
-.title,
-.subtitle {
+.company-title,
+.company-subtitle {
     color: #f9fcfb;
 }
 
@@ -40,6 +40,10 @@ a {
 
 
 /* ------------------------------------ Navbar*/
+
+.navbar {
+    font-family: "Lato", sans-serif;
+}
 .navbar-brand {
     height: 6rem;
 }
@@ -50,7 +54,7 @@ a {
     vertical-align: top;
 }
 
-.title {
+.company-title {
     margin-bottom: 0px;
     vertical-align: top;
 }
@@ -58,20 +62,10 @@ a {
 .company-name {
     display: inline-block;
     margin-left: 1rem;
-    text-align: center;
 }
 
-.title {
-    font-family: "Lato", sans-serif;
+.company-title {
     margin-top: 0.5rem;
-}
-
-.subtitle {
-    font-family: "Lato", sans-serif;
-}
-
-.nav-item {
-    font-family: "Lato", sans-serif;
 }
 
 button {
@@ -80,14 +74,14 @@ button {
 
 @media screen and (max-width: 375px) {
     .navbar-logo {
-        width: 4rem;
+        width: 4.5rem;
     }
 
-    .title {
+    .company-title {
         font-size: 1.5rem;
     }
 
-    .subtitle {
+    .company-subtitle {
         font-size: 1rem;
     }
 
@@ -115,7 +109,7 @@ footer {
 
 /* ------------------------------------ Callout*/
 
-.callout-container {
+.home-container {
     text-align: center;
     height: 100vh;
 

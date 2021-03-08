@@ -14,34 +14,36 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-dark-green">
+    <nav class="navbar navbar-expand-lg fixed-top bg-dark-green">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo" src="assets/images/Uni-fyed-Logo-crop.jpg" alt="">
             <div class="company-name">
-                <h3 class="title">Uni-fyed</h3>
-                <h7 class="subtitle">Language Exchange</h7>
+                <h3 class="company-title text-center">Uni-fyed</h3>
+                <h7 class="company-subtitle text-center">Language Exchange</h7>
             </div>
         </a>
         <button class="navbar-toggler ml-auto collapsed white-toggler" type="button" data-toggle="collapse"
-            data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse" id="navbarCollapse">
 
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="#">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#">Contact</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#features">Features</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#">Sign up</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#">Sign in</a></li>
             </ul>
         </div>
     </nav>
-    <!-- Callout -->
-    <div class="container-fluid callout-container">
+    <!-- Home -->
+    <div id="home" class="container-fluid home-container">
         <div class="row">
             <div class="col-12">
-                <section class="callout jumbotron">
+                <section class="jumbotron">
                     <h1>Find language partners on your own campus!</h1>
                     <p>Sign Up for only €10 per semster to start speaking the languages you are learning</p>
                     <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
@@ -52,8 +54,8 @@
         </div>
     </div>
     <!-- About Video -->
-    <div class="container-fluid about-container">
-        <section class="about">
+    <div id="about" class="container-fluid about-container">
+        <section>
             <div class="row">
                 <div class="col-12 page-header">
                     <h2>About</h2>
@@ -131,7 +133,7 @@
         </section>
     </div>
     <!-- Features -->
-    <div class="container-fluid features-container">
+    <div id="features" class="container-fluid features-container">
         <section class="features">
             <div class="row">
                 <div class="col-12 page-header">
@@ -166,7 +168,8 @@
             </div>
         </section>
     </div>
-    <div class="container-fluid contact-container">
+    <!-- Contact -->
+    <div id="contact" class="container-fluid contact-container">
         <section class="contact">
             <div class="row">
                 <div class="col-12 page-header">
