@@ -107,7 +107,7 @@ footer {
     text-align: center;
 }
 
-/* ------------------------------------ Callout*/
+/* ------------------------------------ Home*/
 
 .home-container {
     text-align: center;
@@ -129,6 +129,9 @@ footer {
 }
 
 /* ------------------------------------ About*/
+.about-container {
+    padding-top: 8.5rem;
+}
 
 .media-container {
   position: relative;
@@ -152,11 +155,17 @@ footer {
 }
 
 /* ------------------------------------ Features*/
+.features-container {
+    padding-top: 8.5rem;
+}
 .center-feat-col {
     text-align: center;
 }
 
 /* ------------------------------------ Features*/
+.contact-container {
+    padding-top: 8.5rem;
+}
 
 .center-form-content {
     text-align: center;
