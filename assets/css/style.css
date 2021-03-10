@@ -33,10 +33,6 @@ a {
 
 /* ------------------------------------ Page Headers*/
 
-.page-header,
-.page-subheader {
-    text-align: center;
-}
 
 
 
@@ -113,8 +109,7 @@ footer {
 /* ------------------------------------ Home*/
 
 .home-container {
-    text-align: center;
-    height: 100vh;
+    height: 70vh;
 
     /* background: url("../images/.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -161,17 +156,10 @@ footer {
 .features-container {
     padding-top: 8.5rem;
 }
-.center-feat-col {
-    text-align: center;
-}
 
 /* ------------------------------------ Features*/
 .contact-container {
     padding-top: 8.5rem;
-}
-
-.center-form-content {
-    text-align: center;
 }
 
 .form-control {
