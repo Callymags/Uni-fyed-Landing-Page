@@ -109,7 +109,8 @@ footer {
 /* ------------------------------------ Home*/
 
 .home-container {
-    height: 70vh;
+    height: 73vh;
+    padding-top: 13rem;
 
     /* background: url("../images/.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -126,6 +127,11 @@ footer {
 
 }
 
+@media screen and (max-width: 375px) {
+    .home-container {
+        padding-top: 15rem;
+    }
+}
 /* ------------------------------------ About*/
 .about-container {
     padding-top: 8.5rem;
