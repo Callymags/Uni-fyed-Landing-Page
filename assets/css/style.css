@@ -109,14 +109,15 @@ footer {
 /* ------------------------------------ Home*/
 
 .home-container {
-    height: 73vh;
+    height: 100vh;
     padding-top: 13rem;
 
-    /* background: url("../images/.jpg") no-repeat center center fixed; 
+    background: url("../images/Uni-fyed-Home-Image.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
+    
 
     display: flex;
     align-items: center;
@@ -125,6 +126,17 @@ footer {
     position: relative;
 
 
+}
+
+.opaque-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0,0,0,0.7); */
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 @media screen and (max-width: 375px) {
