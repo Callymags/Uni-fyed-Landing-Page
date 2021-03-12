@@ -78,6 +78,6 @@ As a language lecturer, I want:
 After the user stories were completed, I used Balsamiq to draw up wireframes to lock in the important 
 content I wanted to display for each section of the landing page. They were also a great help in figuring 
 out how to display the landing page on different screen sizes. You can find a link to the wireframes sections below.
-* [Home section] (assets/wireframes/Wireframes_MP1_Home.pdf) 
+* [Home section] (assets/wireframes/Wireframes MP1 Home.pdf) 
 
 
