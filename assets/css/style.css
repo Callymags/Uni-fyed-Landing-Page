@@ -144,6 +144,28 @@ footer {
         padding-top: 15rem;
     }
 }
+
+@media screen and (max-width: 475px) {
+    .home-container {
+        height: 100vh;
+        padding-top: 14rem;
+
+        background: url("../images/Uni-fyed-Home-Image-Mobile-Two.jpg") top center; 
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+    
+}
 /* ------------------------------------ About*/
 .about-container {
     padding-top: 8.5rem;
