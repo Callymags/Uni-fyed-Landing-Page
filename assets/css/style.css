@@ -168,7 +168,13 @@ footer {
 }
 /* ------------------------------------ About*/
 .about-container {
-    padding-top: 8.5rem;
+    padding-top: 6.7rem;
+    background-color: #f5feff;
+}
+
+.about-text-container {
+    padding-top: 6.7rem;
+    background-color: #fafafa;
 }
 
 .media-container {
@@ -194,12 +200,14 @@ footer {
 
 /* ------------------------------------ Features*/
 .features-container {
-    padding-top: 8.5rem;
+    padding-top: 6.7rem;
+    background-color: #f5feff;
 }
 
-/* ------------------------------------ Features*/
+/* ------------------------------------ Contact*/
 .contact-container {
-    padding-top: 8.5rem;
+    padding-top: 6.7rem;
+    background-color: #fafafa;
 }
 
 .form-control {
