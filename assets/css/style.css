@@ -112,7 +112,7 @@ footer {
     height: 100vh;
     padding-top: 14rem;
 
-    background: url("../images/Uni-fyed-Home-Image-Two.jpg") center fixed; 
+    background: url("../images/Uni-fyed-Home-Image-Two.jpg") center; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
