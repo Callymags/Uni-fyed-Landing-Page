@@ -31,30 +31,21 @@ a {
     color: #f9fcfb;
 }
 
-/* ------------------------------------ Page Headers*/
-
-
-
-
-
 
 /* ------------------------------------ Navbar*/
 
 .navbar {
     font-family: "Lato", sans-serif;
+    height: auto;
+    padding: 0 1rem;
 }
 .navbar-brand {
-    height: 6rem;
+    height: 4.5;
 }
 .navbar-logo{
-    width: 5rem;
+    width: 4rem;
     height: auto;
     border-radius: 50%;
-    vertical-align: top;
-}
-
-.company-title {
-    margin-bottom: 0px;
     vertical-align: top;
 }
 
@@ -64,7 +55,11 @@ a {
 }
 
 .company-title {
-    margin-top: 0.5rem;
+   font-size: 1.5rem;
+}
+
+.company-subtitle {
+    font-size: 1.2rem;
 }
 
 button {
@@ -73,15 +68,16 @@ button {
 
 @media screen and (max-width: 375px) {
     .navbar-logo {
-        width: 4.5rem;
+        width: 3rem;
+        height: 3rem;
     }
 
     .company-title {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .company-subtitle {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     .navbar-toggler {
@@ -167,16 +163,36 @@ footer {
     
 }
 /* ------------------------------------ About*/
-.about-container {
-    padding-top: 6.7rem;
+.about-styling {
+    padding-top: 5.5rem;
     background-color: #f5feff;
 }
 
+/*---------------------------- Stack Overflow recommendation ---------------------------- */
+
+/* section:before {
+    height: 3rem;
+    content: "";
+    display: block;
+} */
+/* section:before {
+    content: "";
+    display: block;
+    position: relative;
+    height: 5rem;
+} */
+/*---------------------------- / recommendation ---------------------------- */
+
 .about-text-container {
     padding-top: 6.7rem;
-    background-color: #fafafa;
 }
+/*---------------------------- Reuben recommendation ---------------------------- */
+/* .media-container {
+    width: 100%;
+    min-height: 40rem;
+} */
 
+/*---------------------------- W3 Schools recommendation ---------------------------- */
 .media-container {
   position: relative;
   overflow: hidden;
@@ -194,19 +210,20 @@ footer {
   margin: auto;
 }
 
+
 .fontawesome-icon {
     font-size: 3rem;
 }
 
 /* ------------------------------------ Features*/
-.features-container {
-    padding-top: 6.7rem;
+.features-bg-color {
+    /* padding-top: 6.7rem; */
     background-color: #f5feff;
 }
 
 /* ------------------------------------ Contact*/
-.contact-container {
-    padding-top: 6.7rem;
+.contact-bg-color {
+    /* padding-top: 6.7rem; */
     background-color: #fafafa;
 }
 

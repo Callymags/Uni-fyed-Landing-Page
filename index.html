@@ -17,9 +17,9 @@
     <nav class="navbar navbar-expand-lg sticky-top bg-dark-green">
         <a class="navbar-brand" href="#">
             <img class="navbar-logo" src="assets/images/Uni-fyed-Logo-crop.jpg" alt="">
-            <div class="company-name">
-                <h3 class="company-title text-center">Uni-fyed</h3>
-                <h7 class="company-subtitle text-center">Language Exchange</h7>
+            <div class="company-name text-center">
+                    <span class="company-title">Uni-fyed</span><br>
+                    <span class="company-subtitle">Language Exchange</span>
             </div>
         </a>
         <button class="navbar-toggler ml-auto collapsed white-toggler" type="button" data-toggle="collapse"
@@ -31,9 +31,9 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
 
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#about">About</a></li>
-                <li class="nav-item mr-2"><a class="nav-link" href="#features">Features</a></li>
+                <li class="active nav-item mr-2"><a class="nav-link anchor-top" href="#home-section">Home</a></li>
+                <li class="nav-item mr-2"><a class="nav-link anchor-top" href="#about-section">About</a></li>
+                <li class="nav-item mr-2"><a class="nav-link" href="#features-section">Features</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#contact">Contact</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#">Sign up</a></li>
                 <li class="nav-item mr-2"><a class="nav-link" href="#">Sign in</a></li>
@@ -41,28 +41,37 @@
         </div>
     </nav>
     <!-- Home -->
-    <div id="home" class="container-fluid home-container">
-        <div class="opaque-overlay fixed"></div>
+    <section id="home-section">
+        <div class="container-fluid home-container">
+            <div class="opaque-overlay fixed"></div>
             <div class="row">
                 <div class="col-12">
-                    <section class="jumbotron text-center">
+                    <div class="jumbotron text-center">
                         <h1>Find language partners on your own campus!</h1>
                         <p>Sign Up for only €10 per semster to start speaking the languages you are learning</p>
                         <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign
                             Up!</button>
                         <p class="text-muted"><small>You must be over 18 to sign up to our platform.</small></p>
-                    </section>
+                    </div>
                 </div>
             </div>
-    </div>
+        </div>
+    </section>
     <!-- About -->
-    <section id="about">
-        <div class="container-fluid about-container text-center">
+    <section id="about-section" class="about-styling">
+        <div class="container text-center">
             <div class="row">
-                <div class="col-12 page-header">
-                    <h2>About</h2>
+                <div class="col-12">
+                    <h2 class="">About</h2>
+                    <br>
+                    <p>Uni-fyed is an online language exchange platform for university students. Our mission is to
+                        enable students to find language partners that are on their own campus in a matter of
+                        seconds by completing these simple steps.
+                    </p>
                 </div>
             </div>
+        </div>
+        <div class="container-fluid text-center">
             <div class="row">
                 <div class="col-12">
                     <div class="media-container">
@@ -80,9 +89,6 @@
             <div class="row d-flex justify-content-md-center">
                 <div class="col-md-10">
                     <h3>What is Uni-fyed?</h3>
-                    <p>Uni-fyed is an online language exchange platform for university students. Our mission is to
-                        enable students to find language partners that are on their own campus in a matter of
-                        seconds by completing these simple steps.</p>
                 </div>
             </div>
             <div class="row d-flex justify-content-md-center">
@@ -135,9 +141,9 @@
         </div>
     </section>
     <!-- Features -->
-    <section id="features">
-        <div class="container-fluid features-container text-center">
-            <div class="row">
+    <section id="features-section" class="features-bg-color">
+        <div class="container-fluid features-container text-center pt-5">
+            <div class="row pt-5">
                 <div class="col-12 page-header">
                     <h2>Features</h2>
                 </div>
@@ -170,9 +176,9 @@
         </div>
     </section>
     <!-- Contact -->
-    <section id="contact">
-        <div class="container-fluid contact-container text-center">
-            <div class="row">
+    <section id="contact-section" class="contact-bg-color">
+        <div class="container-fluid contact-container text-center pt-5">
+            <div class="row pt-5">
                 <div class="col-12">
                     <h2>Contact Us</h2>
                     <p>Want to get in touch? You can contact us by filling out the form below</p>
