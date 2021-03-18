@@ -162,10 +162,15 @@ footer {
     }
     
 }
-/* ------------------------------------ About*/
-.about-styling {
-    padding-top: 5.5rem;
+/* ------------------------------------ About ------------------------------------*/
+.about-section-styling {
+    padding-top: 4.5rem;
     background-color: #f5feff;
+}
+
+/* ------------------------------------ How it Works ------------------------------------*/
+.how-it-works-styling {
+    padding-top: 4.5rem;
 }
 
 /*---------------------------- Stack Overflow recommendation ---------------------------- */
@@ -183,9 +188,7 @@ footer {
 } */
 /*---------------------------- / recommendation ---------------------------- */
 
-.about-text-container {
-    padding-top: 6.7rem;
-}
+
 /*---------------------------- Reuben recommendation ---------------------------- */
 /* .media-container {
     width: 100%;
@@ -216,14 +219,14 @@ footer {
 }
 
 /* ------------------------------------ Features*/
-.features-bg-color {
-    /* padding-top: 6.7rem; */
+.features-section-styling {
+    padding-top: 4.5rem;
     background-color: #f5feff;
 }
 
 /* ------------------------------------ Contact*/
-.contact-bg-color {
-    /* padding-top: 6.7rem; */
+.contact-section-styling {
+    padding-top: 4.5rem;
     background-color: #fafafa;
 }
 
