@@ -5,9 +5,7 @@ html {
 }
 /* ----------------------------------- Colours*/
 
-a {
-    color: #f9fcfb;
-}
+
 
 .bg-dark-green {
     background-color: rgba(27,161,134,0.8);
@@ -66,6 +64,10 @@ button {
     font-size: 2rem;
 }
 
+.nav-link {
+    color: #f9fcfb;
+}
+
 @media screen and (max-width: 475px) {
     .navbar-logo {
         width: 4rem;
@@ -88,11 +90,27 @@ button {
 /* ------------------------------------ Footer*/
 
 footer {
-    background-color: #1ba186;
-    color: #f9fcfb;
+    padding-top: 1.5rem;
+    background-color: #f9fcfb;
+    color: ;
     position: relative;
     bottom: 0;
 }
+
+.footer-link {
+    color: #1ba186;
+    font-size: 1.2rem;
+}
+
+.footer-link:hover {
+    color: #1ba186;
+    text-decoration: none;
+}
+
+.footer-company-name {
+    color: #1ba186;
+    font-size: 1.2rem;
+} 
 
 .company-legal {
     text-align: center;
@@ -165,12 +183,13 @@ footer {
 /* ------------------------------------ About ------------------------------------*/
 .about-section-styling {
     padding-top: 4.5rem;
-    background-color: #f5feff;
+    background-color: white;
 }
 
 /* ------------------------------------ How it Works ------------------------------------*/
 .how-it-works-styling {
     padding-top: 4.5rem;
+    background-color: #50b59f54;
 }
 
 /*---------------------------- Stack Overflow recommendation ---------------------------- */
@@ -221,13 +240,13 @@ footer {
 /* ------------------------------------ Features*/
 .features-section-styling {
     padding-top: 4.5rem;
-    background-color: #f5feff;
+    background-color: white;
 }
 
 /* ------------------------------------ Contact*/
 .contact-section-styling {
     padding-top: 4.5rem;
-    background-color: #fafafa;
+    background-color: #50b59f54;
 }
 
 .form-control {
