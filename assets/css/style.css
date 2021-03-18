@@ -92,7 +92,6 @@ button {
 footer {
     padding-top: 1.5rem;
     background-color: #f9fcfb;
-    color: ;
     position: relative;
     bottom: 0;
 }
@@ -160,11 +159,34 @@ footer {
 }
 
 @media screen and (max-width: 475px) {
+    .header-jumbotron {
+        font-size: 1.5rem;
+    }
     .home-container {
-        height: 100vh;
-        padding-top: 14rem;
+        height: 90vh;
 
-        background: url("../images/Uni-fyed-Home-Image-Mobile-Two.jpg") top center; 
+        background: url("../images/Uni-fyed-Banner-Image-Mobile.jpg") top center; 
+        background-repeat: no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: relative;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .home-container {
+        height: 90vh;
+
+        background: url("../images/Uni-fyed-Home-Image-Two.jpg") top center; 
         background-repeat: no-repeat;
         -webkit-background-size: cover;
         -moz-background-size: cover;
