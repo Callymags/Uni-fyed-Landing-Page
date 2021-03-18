@@ -120,11 +120,13 @@ footer {
 }
 
 /* ------------------------------------ Home*/
+.jumbotron {
+    margin-top: 18.5rem;
+    padding: .5rem 1rem;
+}
 
 .home-container {
-    height: 100vh;
-    padding-top: 14rem;
-
+    height: 100vh; 
     background: url("../images/Uni-fyed-Home-Image-Two.jpg") center; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
@@ -153,12 +155,13 @@ footer {
 }
 
 @media screen and (max-width: 375px) {
-    .home-container {
-        padding-top: 15rem;
-    }
+    
 }
 
 @media screen and (max-width: 475px) {
+    .jumbotron {
+        margin-top: 10.5rem
+    }
     .header-jumbotron {
         font-size: 1.5rem;
     }
