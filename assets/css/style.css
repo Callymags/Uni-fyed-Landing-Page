@@ -131,8 +131,16 @@ footer {
     text-align: center;
 }
 
-.social-links {
+.footer-social-links {
     text-align: center;
+    color: #1ba186;
+    font-size: 2rem;
+    margin: auto 1rem;
+}
+
+.footer-social-links:hover {
+    color: #1ba186;
+    text-decoration: none;
 }
 
 /* ------------------------------------ Home*/
