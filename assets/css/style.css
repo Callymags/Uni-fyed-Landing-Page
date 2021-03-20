@@ -276,6 +276,22 @@ footer {
     background-color: #d6f5ef;
 }
 
+.four-steps {
+    margin: 2rem auto;
+}
+
+.steps-number {
+    font-size: 3rem;
+    background-color: #f8f9fa;
+    border-radius: 6rem;
+    padding: 0 0.3rem;
+}
+
+.four-steps-img {
+    width: 40%;
+    border-radius: 50%;
+    background-color: #f8f9fa;
+}
 
 .fontawesome-icon {
     font-size: 3rem;
