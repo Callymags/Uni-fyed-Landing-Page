@@ -226,7 +226,7 @@ footer {
 .about-section-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-    background-color: white;
+    background-color: #f8f9fa;
 }
 
 .about-us-paragraph {
@@ -265,7 +265,7 @@ footer {
 .how-it-works-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-    background-color: #50b59f54;
+    background-color: #d6f5ef;
 }
 
 
@@ -277,14 +277,14 @@ footer {
 .features-section-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-    background-color: white;
+    background-color: #f8f9fa;
 }
 
 /* ------------------------------------ Contact*/
 .contact-section-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
-    background-color: #50b59f54;
+    background-color: #d6f5ef;
 }
 
 .form-control {
