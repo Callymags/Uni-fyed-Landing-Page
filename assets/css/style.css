@@ -84,6 +84,16 @@ button {
     color: #f9fcfb;
 }
 
+.nav-button {
+    display: inline-block;
+    margin-top: .5rem;
+} 
+
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
 @media screen and (max-width: 475px) {
     .navbar-logo {
         width: 4rem;
