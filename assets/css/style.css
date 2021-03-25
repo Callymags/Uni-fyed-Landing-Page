@@ -22,21 +22,7 @@ button {
 body {
     color: #262525;
 }
-/* ----------------------------------- Colours*/
 
-.company-title,
-.company-subtitle {
-    color: #f9fcfb;
-}
-
-.nav-link:hover {
-    color: #e0e0e0;
-    text-decoration: none;
-}
-
-.white-toggler {
-    color: #f9fcfb;
-}
 
 
 /* ------------------------------------ Navbar*/
@@ -65,10 +51,12 @@ body {
 
 .company-title {
    font-size: 1.5rem;
+   color: #f9fcfb;
 }
 
 .company-subtitle {
     font-size: 1.2rem;
+    color: #f9fcfb;
 }
 
 button {
@@ -89,6 +77,15 @@ button {
 }
 
 .nav-link {
+    color: #f9fcfb;
+}
+
+.nav-link:hover {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.white-toggler {
     color: #f9fcfb;
 }
 
@@ -121,45 +118,6 @@ button {
     }
 }
 
-/* ------------------------------------ Footer*/
-
-footer {
-    padding-top: 1.5rem;
-    background-color: #f8f9fa;
-    position: relative;
-    bottom: 0;
-}
-
-.footer-link {
-    color: #1ba186;
-    font-size: 1.2rem;
-}
-
-.footer-link:hover {
-    color: #218838;
-    text-decoration: none;
-}
-
-.footer-company-name {
-    color: #1ba186;
-    font-size: 1.2rem;
-} 
-
-.company-legal {
-    text-align: center;
-}
-
-.footer-social-links {
-    text-align: center;
-    color: #1ba186;
-    font-size: 2rem;
-    margin: auto 1rem;
-}
-
-.footer-social-links:hover {
-    color: #218838;
-    text-decoration: none;
-}
 
 /* ------------------------------------ Home*/
 .jumbotron {
@@ -182,15 +140,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    position: relative;
 
-
-}
-
-.opaque-overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
 }
 
 .jumbotron {
@@ -227,29 +177,8 @@ footer {
     }
     
 }
-
-@media screen and (min-width: 768px) {
-    .home-container {
-        height: 90vh;
-
-        background: url("../images/Uni-fyed-Home-Image-Two.jpg") top center; 
-        background-repeat: no-repeat;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-        
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        position: relative;
-    }
-    
-}
 /* ------------------------------------ About ------------------------------------*/
-.about-section-styling {
+.about-us-section-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     background-color: #f8f9fa;
@@ -341,4 +270,45 @@ footer {
 
 .contact-button-container {
     margin-bottom: 2rem;
+}
+
+
+/* ------------------------------------ Footer*/
+
+footer {
+    padding-top: 1.5rem;
+    background-color: #f8f9fa;
+    position: relative;
+    bottom: 0;
+}
+
+.footer-link {
+    color: #1ba186;
+    font-size: 1.2rem;
+}
+
+.footer-link:hover {
+    color: #218838;
+    text-decoration: none;
+}
+
+.footer-company-name {
+    color: #1ba186;
+    font-size: 1.2rem;
+} 
+
+.company-legal {
+    text-align: center;
+}
+
+.footer-social-links {
+    text-align: center;
+    color: #1ba186;
+    font-size: 2rem;
+    margin: auto 1rem;
+}
+
+.footer-social-links:hover {
+    color: #218838;
+    text-decoration: none;
 }
