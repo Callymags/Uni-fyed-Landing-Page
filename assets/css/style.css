@@ -127,8 +127,8 @@ button {
 }
 
 .home-container {
-    height: 100vh; 
-    background: url("../images/Uni-fyed-Home-Image-Two.jpg") center; 
+    height: 90vh; 
+    background: url("../images/Uni-fyed-Home-Image-Two.jpg") top center; 
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -172,8 +172,6 @@ button {
         display: flex;
         align-items: center;
         justify-content: center;
-
-        position: relative;
     }
     
 }
