@@ -44,8 +44,11 @@
                 <li class="nav-item mr-2"><a class="nav-link" target="_blank" href="#">Log In</a></li>
             </ul>
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item mr-2"><a class="nav-link btn btn-success nav-button" target="_blank" href="#">Sign
-                        Up</a></li>
+                <li class="nav-item mr-2">
+                    <button type="button" class="nav-link btn btn-link btn-success nav-button" data-toggle="modal"
+                        data-target="#signupModal">Sign
+                        Up</button>
+                </li>
             </ul>
         </div>
     </nav>
@@ -246,187 +249,13 @@
                 <ul class="list-inline company-legal list-footer">
                     <li class="list-inline-item">
                         <button type="button" class="btn btn-link footer-link" data-toggle="modal"
-                            data-target="#exampleModalLong">Terms and Conditions</button>
+                            data-target="#Modal1Long">Terms and Conditions</button>
                     </li>
-                    <!-- Modal -->
-                    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
-                        aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="exampleModalLongTitle">Terms and Conditions</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body text-left">
-                                    <h6></h6>
-                                    <p>By registering, or by using our platform, or other information provided as part
-                                        of the Services (“Uni-fyed”), you agree that you are entering into a legally
-                                        binding agreement with Uni-fyed Language Exchange Ltd, Cork, Ireland
-                                        (“we”, “us”, “our”, “Uni-fyed”). You also agree that these
-                                        Terms of Service (“Terms”) govern your access to and use of the services and any
-                                        information appearing on the services. Your access to and use of the Services is
-                                        conditioned on your acceptance of and compliance with these Terms. By accessing
-                                        or using the services you agree to be bound by these Terms.
-                                        We may, in our sole discretion, modify or update this Agreement from time to
-                                        time, and so you should review this page periodically. Your continued use of the
-                                        Service after any changes constitutes your acceptance of the new Terms of Use.
-                                        Your privacy and your ability to control your data is important to us. Any
-                                        information that you provide to us is subject to Privacy Policy, which governs
-                                        our collection and use of your information. You understand that through your use
-                                        of the Services you consent to the collection and use (as set forth in our
-                                        Privacy Policy) of this information, including the transfer of this information
-                                        to other countries for storage, processing and use by us.
-                                    </p>
-                                    <hr>
-                                    <h6 class="text-uppercase">ownership, license and warranty for information you submit</h6>
-                                    <p>You own the information you provide under this Agreement, and may request its
-                                        deletion at any time, unless you have shared information or Content with others
-                                        and they have not deleted it, or it was copied or stored by other users. You
-                                        understand that deleted Content may persist in backup copies for a reasonable
-                                        period of time but will not be available to others.
-                                        Additionally, you grant Uni-fyed a nonexclusive, irrevocable, worldwide,
-                                        perpetual, unlimited, assignable, sub licensable, fully paid up and royalty-free
-                                        right to copy, prepare derivative works of, improve, distribute, publish,
-                                        remove, retain, add, process, analyse, use and commercialize, in any way now
-                                        known or in the future discovered, any information you provide, directly or
-                                        indirectly to our platforms, including, but not limited to, any user generated
-                                        content, ideas, concepts, techniques or data to the services, you submit to the
-                                        Services, without any further consent, notice and/or compensation to you or to
-                                        any third parties. Any information you submit to us is at your own risk of loss.
-                                        By providing information to us, you represent and warrant that you are entitled
-                                        to submit the information and that the information is accurate, not
-                                        confidential, and not in violation of any contractual restrictions or other
-                                        third-party rights. It is your responsibility to keep your Services account
-                                        profile information accurate and updated.
-                                    </p>
-                                    <hr>
-                                    <h6 class="text-uppercase">service eligibility and account security</h6>
-                                    <p>To be eligible to use the Service, you must meet the following criteria and
-                                        represent and warrant that you: <br>
-                                    <ul>
-                                        <li>are 18 years of age or older.</li>
-                                        <li>are not currently restricted from Uni-fyed. If we disable your account,
-                                            you will not create another one without our permission.</li>
-                                        <li>are using your real name and identity in your profile and you will not
-                                            provide
-                                            any false personal information or create an account for anyone other than
-                                            yourself without permission.</li>
-                                        <li>will only maintain one Uni-fyed account at any given time.</li>
-                                        <li>have full power and authority to enter into this Agreement and doing so will
-                                            not violate any other agreement to which you are a party.</li>
-                                        <li>are not a convicted sex offender.</li>
-                                        <li>will not violate any rights, including intellectual property rights such as
-                                            copyright or trademark rights.</li>
-                                    </ul>
-                                    </p>
-                                    <hr>
-                                    <h6 class="text-uppercase">registration and account credentials</h6>
-                                    <p>By signing up to our platform you agree:
-                                    <ul>
-                                        <li>to keep your password secure and confidential.</li>
-                                        <li>to not permit others to use your account.</li>
-                                        <li>to refrain from using other users’ accounts.</li>
-                                        <li>to refrain from selling, trading, or otherwise transferring your account to
-                                            another party or do anything else that might jeopardize the security of your
-                                            account.</li>
-                                        <li>that you are responsible for anything that happens through your account
-                                            until you close your account or prove that your account security was
-                                            compromised due to no fault of your own.</li>
-                                    </ul>
-                                    You may control your user profile and how you interact with the Service by changing
-                                    the settings in our platform’s Profile page or by changing settings before posts are
-                                    published. By providing us your email address you consent to our using the email
-                                    address to send you Service-related notices, including any notices required by law,
-                                    in lieu of communication by postal mail. We may also use your email address to send
-                                    you other messages, such as changes to features of the Service or Service
-                                    Notifications.
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                     <li class="list-inline-item">
                         <button type="button" class="btn btn-link footer-link" data-toggle="modal"
-                            data-target="#exampleModal2Long">Privacy Policy</button>
+                            data-target="#Modal2Long">Privacy Policy</button>
                     </li>
                 </ul>
-                <!-- Modal 2 -->
-                <div class="modal fade" id="exampleModal2Long" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModal2LongTitle" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModal2LongTitle">Privacy Policy</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body text-left">
-                                <h6 class="text-uppercase">Purposes of Use</h6>
-                                <p>Personal data will only be collected by us to the extent and for the purpose for
-                                    which you provide the data to us, e.g. for registering an account.
-                                    We use and store your personal data as part of our services for the following
-                                    purposes and only if you have provided us with your express consent:
-                                <ul>
-                                    <li>to create a public user profile for you on Uni-fyed.</li>
-                                    <li>to provide a curated community just for language learners, where access is
-                                        restricted to members only. We will attempt to prevent abuse and ban offenders,
-                                        as soon as we are made aware.</li>
-                                    <li>send information relevant to the service, e.g. via email or push notification
-                                        (e.g. updates on your membership status, missed calls/messages, new followers).
-                                    </li>
-                                    <li>to find language partners nearby.</li>
-                                    <li>to understand how Uni-fyed is used so we can optimize the service.</li>
-                                    <li>to use your personal information only within the company and forward it only to
-                                        those companies that are involved in performing the contracts concluded with you
-                                        or otherwise involved in providing the relevant service.</li>
-                                </ul>
-                                Otherwise, your personal information will not be forwarded to third parties unless you
-                                have given your express consent for this or unless we are obliged to disclose it – for
-                                example, at the direction of a court or administrative authority.
-                                </p>
-                                <hr>
-                                <h6 class="text-uppercase">Data Protection</h6>
-                                <p>We have taken extensive technical and organizational measures to secure your data
-                                    against potential risks, such as unauthorized login or access, unauthorized perusal,
-                                    amendment, or distribution, and against loss, deletion, or misuse.
-                                    To protect your personal data against unauthorized access by third parties when
-                                    being transmitted, we secure data transmissions, if necessary, using SSL and TLS
-                                    encryption. This is a standard encryption procedure for online and mobile services,
-                                    particularly for the Internet.
-                                    Regarding messaging: we will not monitor or record message sessions at any time.
-                                    However, we cannot prevent your language partners from recording message sessions
-                                    without your or our permission through third party websites or services. We
-                                    recommend that you exercise caution in disclosing any information, personal or
-                                    otherwise when messaging another user on our platform.
-                                </p>
-                                <hr>
-                                <h6 class="text-uppercase">Registration and Authentication</h6>
-                                <p>By registering and authenticating, users allow Uni-fyed to identify them securely and
-                                    give them access to its services. <br>
-                                    This type of service has the purpose of hosting data and files that enable Uni-fyed
-                                    to run and be distributed, as well as providing a ready-made infrastructure to run
-                                    specific features or parts of Uni-fyed.
-                                </p>
-                                <hr>
-                                <h6 class="text-uppercase">Location-based Services</h6>
-                                <p>Uni-fyed may collect, use, and share user location data to provide location-based
-                                    services. Most browsers and devices provide tools to opt out from this feature by
-                                    default. If explicit authorization has been provided, the user’s location data may
-                                    be tracked in order for Uni-fyed to show language partners nearby. Personal data
-                                    collected: geographic position.</p>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <ul class="list-inline company-legal">
                     <li class="list-inline-item">
                         <p class="footer-company-name">2021 Uni-fyed Language Exchange Ltd.</p>
@@ -457,6 +286,230 @@
             </div>
         </div>
     </footer>
+    <!-- Sign Up Modal -->
+    <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="first-name">First Name</label>
+                            <input type="text" class="form-control form-control-lg" name="first-name" id="first-name"
+                                placeholder="Frodo" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="signup-email">Email</label>
+                            <input type="email" class="form-control form-control-lg" id="signup-email"
+                                placeholder="frodobaggins@theshire.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control form-control-lg" id="password"
+                                placeholder="G@ndalf27" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="repeat-password">Repeat Password</label>
+                            <input type="password" class="form-control form-control-lg" id="repeat-password"
+                                placeholder="G@ndalf27" required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="T&C-agreement">
+                            <label class="form-check-label" for="Privacy-T&C-agreement">I agree to the Terms and
+                                Conditions and Privacy Policy</label>
+                        </div>
+
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Modal 1-->
+    <div class="modal fade" id="Modal1Long" tabindex="-1" role="dialog" aria-labelledby="Modal1LongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Modal1LongTitle">Terms and Conditions</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+                    <h6></h6>
+                    <p>By registering, or by using our platform, or other information provided as part
+                        of the Services (“Uni-fyed”), you agree that you are entering into a legally
+                        binding agreement with Uni-fyed Language Exchange Ltd, Cork, Ireland
+                        (“we”, “us”, “our”, “Uni-fyed”). You also agree that these
+                        Terms of Service (“Terms”) govern your access to and use of the services and any
+                        information appearing on the services. Your access to and use of the Services is
+                        conditioned on your acceptance of and compliance with these Terms. By accessing
+                        or using the services you agree to be bound by these Terms.
+                        We may, in our sole discretion, modify or update this Agreement from time to
+                        time, and so you should review this page periodically. Your continued use of the
+                        Service after any changes constitutes your acceptance of the new Terms of Use.
+                        Your privacy and your ability to control your data is important to us. Any
+                        information that you provide to us is subject to Privacy Policy, which governs
+                        our collection and use of your information. You understand that through your use
+                        of the Services you consent to the collection and use (as set forth in our
+                        Privacy Policy) of this information, including the transfer of this information
+                        to other countries for storage, processing and use by us.
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">ownership, license and warranty for information you
+                        submit</h6>
+                    <p>You own the information you provide under this Agreement, and may request its
+                        deletion at any time, unless you have shared information or Content with others
+                        and they have not deleted it, or it was copied or stored by other users. You
+                        understand that deleted Content may persist in backup copies for a reasonable
+                        period of time but will not be available to others.
+                        Additionally, you grant Uni-fyed a nonexclusive, irrevocable, worldwide,
+                        perpetual, unlimited, assignable, sub licensable, fully paid up and royalty-free
+                        right to copy, prepare derivative works of, improve, distribute, publish,
+                        remove, retain, add, process, analyse, use and commercialize, in any way now
+                        known or in the future discovered, any information you provide, directly or
+                        indirectly to our platforms, including, but not limited to, any user generated
+                        content, ideas, concepts, techniques or data to the services, you submit to the
+                        Services, without any further consent, notice and/or compensation to you or to
+                        any third parties. Any information you submit to us is at your own risk of loss.
+                        By providing information to us, you represent and warrant that you are entitled
+                        to submit the information and that the information is accurate, not
+                        confidential, and not in violation of any contractual restrictions or other
+                        third-party rights. It is your responsibility to keep your Services account
+                        profile information accurate and updated.
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">service eligibility and account security</h6>
+                    <p>To be eligible to use the Service, you must meet the following criteria and
+                        represent and warrant that you: <br>
+                    <ul>
+                        <li>are 18 years of age or older.</li>
+                        <li>are not currently restricted from Uni-fyed. If we disable your account,
+                            you will not create another one without our permission.</li>
+                        <li>are using your real name and identity in your profile and you will not
+                            provide
+                            any false personal information or create an account for anyone other than
+                            yourself without permission.</li>
+                        <li>will only maintain one Uni-fyed account at any given time.</li>
+                        <li>have full power and authority to enter into this Agreement and doing so will
+                            not violate any other agreement to which you are a party.</li>
+                        <li>are not a convicted sex offender.</li>
+                        <li>will not violate any rights, including intellectual property rights such as
+                            copyright or trademark rights.</li>
+                    </ul>
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">registration and account credentials</h6>
+                    <p>By signing up to our platform you agree:
+                    <ul>
+                        <li>to keep your password secure and confidential.</li>
+                        <li>to not permit others to use your account.</li>
+                        <li>to refrain from using other users’ accounts.</li>
+                        <li>to refrain from selling, trading, or otherwise transferring your account to
+                            another party or do anything else that might jeopardize the security of your
+                            account.</li>
+                        <li>that you are responsible for anything that happens through your account
+                            until you close your account or prove that your account security was
+                            compromised due to no fault of your own.</li>
+                    </ul>
+                    You may control your user profile and how you interact with the Service by changing
+                    the settings in our platform’s Profile page or by changing settings before posts are
+                    published. By providing us your email address you consent to our using the email
+                    address to send you Service-related notices, including any notices required by law,
+                    in lieu of communication by postal mail. We may also use your email address to send
+                    you other messages, such as changes to features of the Service or Service
+                    Notifications.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Modal 2 -->
+    <div class="modal fade" id="Modal2Long" tabindex="-1" role="dialog" aria-labelledby="Modal2LongTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="Modal2LongTitle">Privacy Policy</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-left">
+                    <h6 class="text-uppercase">Purposes of Use</h6>
+                    <p>Personal data will only be collected by us to the extent and for the purpose for
+                        which you provide the data to us, e.g. for registering an account.
+                        We use and store your personal data as part of our services for the following
+                        purposes and only if you have provided us with your express consent:
+                    <ul>
+                        <li>to create a public user profile for you on Uni-fyed.</li>
+                        <li>to provide a curated community just for language learners, where access is
+                            restricted to members only. We will attempt to prevent abuse and ban offenders,
+                            as soon as we are made aware.</li>
+                        <li>send information relevant to the service, e.g. via email or push notification
+                            (e.g. updates on your membership status, missed calls/messages, new followers).
+                        </li>
+                        <li>to find language partners nearby.</li>
+                        <li>to understand how Uni-fyed is used so we can optimize the service.</li>
+                        <li>to use your personal information only within the company and forward it only to
+                            those companies that are involved in performing the contracts concluded with you
+                            or otherwise involved in providing the relevant service.</li>
+                    </ul>
+                    Otherwise, your personal information will not be forwarded to third parties unless you
+                    have given your express consent for this or unless we are obliged to disclose it – for
+                    example, at the direction of a court or administrative authority.
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">Data Protection</h6>
+                    <p>We have taken extensive technical and organizational measures to secure your data
+                        against potential risks, such as unauthorized login or access, unauthorized perusal,
+                        amendment, or distribution, and against loss, deletion, or misuse.
+                        To protect your personal data against unauthorized access by third parties when
+                        being transmitted, we secure data transmissions, if necessary, using SSL and TLS
+                        encryption. This is a standard encryption procedure for online and mobile services,
+                        particularly for the Internet.
+                        Regarding messaging: we will not monitor or record message sessions at any time.
+                        However, we cannot prevent your language partners from recording message sessions
+                        without your or our permission through third party websites or services. We
+                        recommend that you exercise caution in disclosing any information, personal or
+                        otherwise when messaging another user on our platform.
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">Registration and Authentication</h6>
+                    <p>By registering and authenticating, users allow Uni-fyed to identify them securely and
+                        give them access to its services. <br>
+                        This type of service has the purpose of hosting data and files that enable Uni-fyed
+                        to run and be distributed, as well as providing a ready-made infrastructure to run
+                        specific features or parts of Uni-fyed.
+                    </p>
+                    <hr>
+                    <h6 class="text-uppercase">Location-based Services</h6>
+                    <p>Uni-fyed may collect, use, and share user location data to provide location-based
+                        services. Most browsers and devices provide tools to opt out from this feature by
+                        default. If explicit authorization has been provided, the user’s location data may
+                        be tracked in order for Uni-fyed to show language partners nearby. Personal data
+                        collected: geographic position.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
