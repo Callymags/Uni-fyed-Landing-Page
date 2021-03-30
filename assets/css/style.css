@@ -311,3 +311,10 @@ footer {
     color: #218838;
     text-decoration: none;
 }
+
+/* ------------------------------------ Forms*/
+
+.form-group label,
+.form-group input {
+    font-family: "Open-Sans", sans-serif;
+}
