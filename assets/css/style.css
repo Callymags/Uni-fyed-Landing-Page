@@ -24,7 +24,9 @@ body {
     color: #262525;
 }
 
-
+.header-text {
+    font-weight: bold;
+}
 
 /* ------------------------------------ Navbar*/
 
@@ -118,8 +120,6 @@ button {
         padding: 0rem;
     }
 }
-
-
 /* ------------------------------------ Home*/
 .jumbotron {
     margin-top: 18.5rem;
@@ -172,8 +172,6 @@ button {
 }
     
 }
-
-
 /* ------------------------------------ About ------------------------------------*/
 .about-us-section-styling {
     padding-top: 4.5rem;
@@ -224,11 +222,21 @@ button {
     margin: 2rem auto;
 }
 
-.steps-number {
+.four-steps-number {
     font-size: 3rem;
     background-color: #f8f9fa;
     border-radius: 6rem;
-    padding: 0 0.3rem;
+    padding: 0 1rem;
+}
+
+.four-steps-header {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+.four-steps-divider {
+    border-top: 1.5px solid #f8f9fa;
 }
 
 .four-steps-img {
