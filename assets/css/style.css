@@ -247,11 +247,30 @@ button {
     font-size: 3rem;
 }
 
+@media screen and (max-width: 320px) {
+    .four-steps-header {
+        font-weight: bold;
+        font-size: 1.25rem;
+        margin-left: 0.5rem;
+    }
+    .four-steps-number {
+        font-size: 2rem;
+        background-color: #f8f9fa;
+        border-radius: 6rem;
+        padding: 0 0.8rem;
+    }
+}
+
 /* ------------------------------------ Features*/
 .features-section-styling {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     background-color: #f8f9fa;
+}
+
+.features-header {
+    font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .features-img {
