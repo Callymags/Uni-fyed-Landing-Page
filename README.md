@@ -305,26 +305,32 @@ validator and not the code. You can view the thread [here.](https://github.com/v
 
 ## Bugs Encountered 
 * **Navbar not expanding down with dropdown toggler.**
+
 The toggler would not expand the navbar down properly because the navbar was adjusted to have a relative position. 
 Once the relative position of the navbar was removed, the dropdown worked no problem.
 
 * **Navbar displaying over the section headers.** 
+
 This bug was due to the navigation bar being a certain fixed height. A thread on Stackoverflow recommended to add padding 
 to the top of the section headers and it worked. You can view the thread [here](https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page)
 
 * **Top of hero image cut off by navbar.**
+
 The top of the hero image was being displayed under the navbar. To solve this, the navbar position was changed from a fixed to a sticky position.
 
 * **Iframe video not responsive.**
+
 The iframe would not adjust to different screen sizes so media queries were added at different breakpoints to custom style the height and width of the iframe.
 
 * **Images in How it Works section displaying in wrong area on mobile devices.**
+
 This section has different styles for different screen sizes. The problem for mobile was that the image tags for the second and fourth row would be displayed under the 
 written content as a result of the styling used. To counteract this, the images were duplicated in these sections and 
 the bootstrap display (d-none) classes were used to display one of the images while hiding the other image 
 depending on the screen size.
 
 * **Sign Up Modal form not validating.**
+
 The sign up modal would not validate the form sections. The reason for this was that the submit button for the form was outside of the form tag 
 which resulted in the form not validating.
 
@@ -358,30 +364,39 @@ affecting the original repository by using the following steps:
 ## Contributions 
 ### Code 
 * **Stack Overflow**
+
 To help display headers once nav-links were clicked. The following thread was used. [View here.](https://stackoverflow.com/questions/10336194/top-nav-bar-blocking-top-content-of-the-page)
 
 * **w3schools**
+
 A thread on the w3schools site helped develop a smooth scrolling feature for my nav links. [View here.](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp#section1)
 
 * **Code Institute Slack Channel**
+
 Helped solve a problem with the navbar dropdown setting that would not expand. [View here.](https://code-institute-room.slack.com/archives/C7J2ZAVHB/p1614329766144800)  
 
 * **Whiskey Drop Tutorials**
+
 The videos from the Whiskey Drop project were used to help develop the home section of the page.
 
 * **Bootstrap** 
+
 The Bootstrap Library has been used as a reference throughout the project to add features and to make the site responsive using the grid system.
 
 ### Media 
 * **Fiverr artist Weperfectionist**
+
 Purchased custom created Uni-fyed logo off artist through the [Fiverr](https://www.fiverr.com/) platform.
 
 * **Shutterstock artist GaudiLab.** 
+
 Purchased image through Shutterstock for use as a background image for the home section.
 
 * **Flaticon artists Dinosoftlabs.**
+
 Icons taken for use in How it Works section of landing page. Dinosoftlabs has also been credited in the HTML code at the top of the relevant section as these were images I had taken for free.
 * **Flaticon artists Pixel Perfect**
+
 Icons taken for use in Features section of landing page. Pixel Perfect has also been credited in the HTML code at the top of the relevant section as these were images I had taken for free.
 
 ## Acknowledgements
