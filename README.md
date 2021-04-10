@@ -286,15 +286,22 @@ Browser compatibility was physically tested across the different browsers listed
 * Internet Explorer 11
 
 The website was compatible on all browsers except for Internet Explorer 11 which decided to display my jumbotron 
-vertically over the navbar section all the way through to the about section. The problem can be seen [here](documentation/testing/browser-compatibility/IE-11-screenshot.jpg)
+vertically over the navbar section all the way through to the about section. The problem can be seen [here](testing/browser-compatibility/IE-11-screenshot.jpg)
 
 
 ### Code Validation 
-* HTML validated using [W3C Markup Service.](https://validator.w3.org/). The validator displays an error with text being inserted within the iframe
+1. HTML validated using [W3C Markup Service](https://validator.w3.org/). You can view the results below 
+
+* [W3C Markup Service HTML Results.](testing/code-validation/w3-html-validator.jpg)
+
+The validator displays an error with text being inserted within the iframe
 tags in the About section. However, I have chosen to keep the content there as this was the method shown in the iframe lessons for
 Code Institute. I also researched the problem online and came across a thread on github which indicated that this was a problem with the 
-validator and not the code. You can view the thread [here](https://github.com/validator/validator/issues/592)
-* CSS code validated using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found.
+validator and not the code. You can view the thread [here.](https://github.com/validator/validator/issues/592)
+
+2. CSS code validated using [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/). No errors were found. You can view the results below.
+
+* [W3C Markup Service CSS Results.](testing/code-validation/w3-css-validator.jpg)
 
 ## Bugs Encountered 
 * **Navbar not expanding down with dropdown toggler.**
