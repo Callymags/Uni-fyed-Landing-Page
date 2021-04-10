@@ -130,21 +130,28 @@ in a database (backend wizardry not yet understood).
 ### User Stories: Language Students 
 **1. As a university language student, I want a visually appealing landing page no matter what device I use.**
 * Balance between content and media conveys a positive user experience that adapts to all screen sizes. 
+
 **2. As a university language student, I want the ability to easily navigate through the landing page.**
 * Conventional structure of page with navbar at the top allows students to instantly know how the page navigation works.
+
 **3. As a university language student, I want the information provided to be clear, organised, and easy to understand.**
 * Information provided is organized into sections.
 * Text content broken into bitesize pieces of information instead of large bodies of text
 * Information features media in the form of a video and icons in order to break up the text and maintain the user’s attention.
+
 **4. As a university language student, I want knowledge of the price to use the platform before signing up.**
 * Home section jumbotron features the price of the service per semester.
+
 **5. As a university language student, I want options to find out more information before signing up.**
 * About & Feature sections of page display important information for students before they sign up.
+
 **6. As a university language student, I want the ability to contact Uni-fyed for more information.**
 * Contact Us section allows students to ask the Uni-fyed team for more information not displayed on landing page.
+
 **7. The ability to sign up.**
 * Sign up modal on home page validates sign up information but is not yet fully functional. 
 * More knowledge of databases is needed to store student sign up information.
+
 **8. The ability to log in.**
 * Log in modal on home page validates information but is not yet fully functional.
 * More knowledge of databases is needed to recall log in information.
@@ -152,12 +159,16 @@ in a database (backend wizardry not yet understood).
 ### User Stories: Language Lecturers 
 **1. As a language lecturer, I want the ability to easily navigate through the landing page, so that I can find relevant information easily.** 
 * Conventional structure of page with navbar at the top allows lecturers to instantly know how the page navigation works.
+
 **2. As a language lecturer, I want a visually appealing landing page that looks professional and trustworthy.** 
 * Bootstrap framework, custom styling, and the addition of media and relevant content conveys a positive user experience that looks professional and trustworthy.
+
 **3. As a language lecturer, I want simple, concise messaging that outlines offering clearly.**
 * Information broken into sections with bitesize pieces of content making information easy to understand. 
+
 **4. As a language lecturer, I want options to find out more information before promoting platform to students.**
 * About & Feature sections of page display important information that lecturers can reference before promoting platform.
+
 **5. As a language lecturer, I want the ability to contact Uni-fyed for more information.**
 * Contact Us section allows lecturers to ask the Uni-fyed team for more information not displayed on landing page.
 
@@ -275,8 +286,7 @@ Browser compatibility was physically tested across the different browsers listed
 * Internet Explorer 11
 
 The website was compatible on all browsers except for Internet Explorer 11 which decided to display my jumbotron 
-vertically over the navbar section all the way through to the about section. The problem can be seen [here](documentation/testing/browser-commpatibility/IE-11-screenshot.jpg)
-
+vertically over the navbar section all the way through to the about section. The problem can be seen [here](documentation/testing/browser-compatibility/IE-11-screenshot.jpg)
 
 
 
