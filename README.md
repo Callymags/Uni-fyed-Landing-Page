@@ -3,6 +3,36 @@
 * You can view the GitHub repository [here.](https://github.com/Callymags/Uni-fyed-Landing-Page)
 * You can view the live project [here.](https://callymags.github.io/Uni-fyed-Landing-Page/)
 
+## Table of Contents
+1. [Project Description](#project-description)
+2. [UX](#ux)
+  * [Project Goals](#project-goals)
+  * [User Stories](#user-stories)
+  * [Wireframes](#wireframes)
+3. [Features](#features)
+  * [Landing Page Features](#landing-page-features)
+  * [Features Left to Implement](#features-left-to-implement)
+4. [Technologies Used](#technologies-used)
+  * [Languages](#languages)
+  * [Frameworks](#frameworks)
+  * [Libraries](#libraries)
+5. [Testing](#testing)
+  * [User Stories: Language Students](#user-stories:-language-students)
+  * [User Stories: Language Lecturers](#user-stories:-language-lecturers)
+  * [Feature Functionality](#feature-functionality)
+  * [Responsive Design Testing](#responsive-design-testing)
+  * [Browser Compatibility](#browser-compatibility)
+  * [Code Validation](#code-validation)
+6. [Bugs Encountered](#bugs-encountered)
+7. [Deployment](#deployment)
+  * [GitHub Pages](#github-pages)
+  * [Forking the GitHub Repository](#forking-the-github-repository)
+  * [Making a Local Clone](#making-a-local-clone)
+8. [Contributions](#contributions)
+  * [Code](#code)
+  * [Media](#media)
+9. [Acknowledgements](#acknowledgements)
+
 ## Project Description
 My first milestone project focuses on developing a landing page for Uni-fyed Language Exchange (Uni-fyed), an online
 language exchange platform for university students. The landing page will be built in order to allow potential 
@@ -50,7 +80,7 @@ As a language lecturer, I want:
 5. Options to find out more information before promoting platform to students.
 6. The ability to contact Uni-fyed for more information.
 
-### Developer Goals 
+#### Developer Goals 
 I am the founder of Uni-fyed Language Exchange Ltd. Therefore, the end goals for this landing page 
 are personal as well as business orientated.
 
