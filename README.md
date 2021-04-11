@@ -1,8 +1,7 @@
 # Uni-fyed Landing Page
-(wireframes/uni-fyed-mockup.jpg)
-
-You can view the GitHub repository [here.](https://github.com/Callymags/Uni-fyed-Landing-Page)
-You can view the live project [here.](https://callymags.github.io/Uni-fyed-Landing-Page/)
+![Mock Up Image](wireframes/uni-fyed-mockup.jpg)
+* You can view the GitHub repository [here.](https://github.com/Callymags/Uni-fyed-Landing-Page)
+* You can view the live project [here.](https://callymags.github.io/Uni-fyed-Landing-Page/)
 
 ## Project Description
 My first milestone project focuses on developing a landing page for Uni-fyed Language Exchange (Uni-fyed), an online
