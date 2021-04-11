@@ -1,4 +1,10 @@
 # Uni-fyed Landing Page
+(wireframes/uni-fyed-mockup.jpg)
+
+You can view the GitHub repository [here.](https://github.com/Callymags/Uni-fyed-Landing-Page)
+You can view the live project [here.](https://callymags.github.io/Uni-fyed-Landing-Page/)
+
+## Project Description
 My first milestone project focuses on developing a landing page for Uni-fyed Language Exchange (Uni-fyed), an online
 language exchange platform for university students. The landing page will be built in order to allow potential 
 customers to get more information about the platform before signing up. It will also act as an information point 
@@ -110,21 +116,20 @@ in a database (backend wizardry not yet understood).
 * CSS: Used to add custom styling to page.
 
 ### Frameworks 
-* Bootstrap 4.2.1: Used to create a responsive landing page with custom styled components. 
-* jQuery: Used along with bootstrap to help landing page responsiveness. 
-* Google Developer Tools: Used to test responsive elements of page and to fix bugs.
-* Git: Useful to control and document page versions through git commits and git pushes. 
-* Github Pages: Used to store project code and to deploy the website.
-* Pesticide: Used to improve CSS styling by outlining each element to better see their placement on the page.
-* Balsamiq: Used to draw up wireframes seen above.
-* Online-convert.com: Used to change Uni-fyed logo jpg into icon format.
-
+* [Bootstrap 4.2.1:](https://getbootstrap.com/docs/4.2/getting-started/introduction/) Used to create a responsive landing page with custom styled components. 
+* [Google Developer Tools:](https://developer.chrome.com/docs/devtools/) Used to test responsive elements of page and to fix bugs.
+* [Git:](https://git-scm.com/) Useful to control and document page versions through git commits and git pushes. 
+* [Github:](https://github.com/) Used to store project code and to deploy the website.
+* [Pesticide:](https://chrome.google.com/webstore/detail/pesticide-for-chrome-with/neonnmencpneifkhlmhmfhfiklgjmloi) Used to improve CSS styling by outlining each element to better see their placement on the page.
+* [Balsamiq:](https://balsamiq.com/) Used to draw up wireframes seen above.
+* [Online-convert.com:](https://image.online-convert.com/convert-to-ico) Used to change Uni-fyed logo jpg into icon format.
+* [Techsini:](https://techsini.com/multi-mockup/index.php) Used to create a mockup of the Landing page on different devices for Readme.
 ### Libraries 
-* Google fonts: Used to find appropriate fonts for headings and content of landing page.
-* Font Awesome: Provided the icons for the social media links in the footer. 
-* Flaticon.com: Provided the coloured icons for the About and Features sections of the page.
-* Shutterstock: Used to purchase copyrights for background image in home section.
-* YouTube: Used to generate Uni-fyed video for About Us section.
+* [Google fonts:](https://fonts.google.com/) Used to find appropriate fonts for headings and content of landing page.
+* [Font Awesome:](https://fontawesome.com/icons?d=gallery&p=2) Provided the icons for the social media links in the footer. 
+* [Flaticon.com:](https://www.flaticon.com/) Provided the coloured icons for the About and Features sections of the page.
+* [Shutterstock:](https://www.shutterstock.com/home) Used to purchase copyrights for background image in home section.
+* [YouTube:](https://www.youtube.com/) Used to generate Uni-fyed video for About Us section.
 
 ## Testing 
 ### User Stories: Language Students 
