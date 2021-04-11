@@ -17,8 +17,7 @@
   * [Frameworks](#frameworks)
   * [Libraries](#libraries)
 * [Testing](#testing)
-  * [User Stories: Language Students](#user-stories:-language-students)
-  * [User Stories: Language Lecturers](#user-stories:-language-lecturers)
+  * [User Stories](#user-stories)
   * [Feature Functionality](#feature-functionality)
   * [Responsive Design Testing](#responsive-design-testing)
   * [Browser Compatibility](#browser-compatibility)
@@ -161,7 +160,8 @@ in a database (backend wizardry not yet understood).
 * [YouTube:](https://www.youtube.com/) Used to generate Uni-fyed video for About Us section.
 
 ## Testing 
-### User Stories: Language Students 
+### User Stories
+#### Language Students 
 **1. As a university language student, I want a visually appealing landing page no matter what device I use.**
 * Balance between content and media conveys a positive user experience that adapts to all screen sizes. 
 
@@ -190,7 +190,7 @@ in a database (backend wizardry not yet understood).
 * Log in modal on home page validates information but is not yet fully functional.
 * More knowledge of databases is needed to recall log in information.
 
-### User Stories: Language Lecturers 
+#### Language Lecturers 
 **1. As a language lecturer, I want the ability to easily navigate through the landing page, so that I can find relevant information easily.** 
 * Conventional structure of page with navbar at the top allows lecturers to instantly know how the page navigation works.
 
