@@ -21,7 +21,7 @@
   * [Feature Functionality](#feature-functionality)
   * [Responsive Design Testing](#responsive-design-testing)
   * [Browser Compatibility](#browser-compatibility)
-  * [Performance](#performance)
+  * [Site Performance](#site-performance)
   * [Code Validation](#code-validation)
 * [Bugs Encountered](#bugs-encountered)
 * [Deployment](#deployment)
