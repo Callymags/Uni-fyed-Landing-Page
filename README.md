@@ -95,8 +95,8 @@ After the user stories were completed, I used Balsamiq to draw up wireframes to 
 content I wanted to display for each section of the landing page. They were also a great help in figuring 
 out how to display the landing page on different screen sizes. You can find a link to the wireframes sections below.
 
-* [Home](https://github.com/Callymags/Uni-fyed-Landing-Page/blob/master/wireframes/Wireframes-MP1-Home.pdf)
-* [About](https://github.com/Callymags/Uni-fyed-Landing-Page/blob/master/wireframes/Wireframes-MP1-About.pdf)
+* [Home](wireframes/Wireframes-MP1-Home.pdf)
+* [About](wireframes/Wireframes-MP1-About.pdf)
 * [Contact](https://github.com/Callymags/Uni-fyed-Landing-Page/blob/master/wireframes/Wireframes-MP1-Contact.pdf)
 
 As you can see, some features of the deployed site (e.g navbar and about section) are not an exact match to the design I had 
