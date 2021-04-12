@@ -21,6 +21,7 @@
   * [Feature Functionality](#feature-functionality)
   * [Responsive Design Testing](#responsive-design-testing)
   * [Browser Compatibility](#browser-compatibility)
+  * [Performance](#performance)
   * [Code Validation](#code-validation)
 * [Bugs Encountered](#bugs-encountered)
 * [Deployment](#deployment)
@@ -322,6 +323,13 @@ Browser compatibility was physically tested across the different browsers listed
 The website was compatible on all browsers except for Internet Explorer 11 which decided to display my jumbotron 
 vertically over the navbar section all the way through to the about section. The problem can be seen [here](testing/browser-compatibility/IE-11-screenshot.jpg)
 
+### Site Performance 
+I decided to test the site’s performance with the help of [Lighthouse](https://developers.google.com/web/tools/lighthouse) which can be found in Google Developer Tools. 
+Lighthouse enabled me to generate a report on the landing page which can be seen below.
+
+![Performance Screenshot](testing/performance/lighthouse-report.jpg)
+
+Given that this was the first website I have designed, I was happy that three out of the four aspects had a relatively high score.
 
 ### Code Validation 
 1. HTML validated using [W3C Markup Service](https://validator.w3.org/). You can view the results below 
