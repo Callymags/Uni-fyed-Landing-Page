@@ -97,7 +97,7 @@ out how to display the landing page on different screen sizes. You can find a li
 
 * [Home](wireframes/home-page-wireframe.jpg)
 * [About](wireframes/about-wireframe.jpg)
-* [Contact](https://github.com/Callymags/Uni-fyed-Landing-Page/blob/master/wireframes/Wireframes-MP1-Contact.pdf)
+* [Contact](wireframes/contact-wireframe.jpg)
 
 As you can see, some features of the deployed site (e.g navbar and about section) are not an exact match to the design I had 
 laid out in my wireframes. 
